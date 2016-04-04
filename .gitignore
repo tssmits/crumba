@@ -1,6 +1,7 @@
 /vendor/
 /node_modules/
 /bower_components/
+/semantic/
 /tmp/*
 !/tmp/.gitkeep
 .env
