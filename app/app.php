@@ -27,6 +27,12 @@ $app->register(new \Silex\Provider\TwigServiceProvider(), array(
     'twig.path' => __DIR__ . '/views'
 ));
 
-$app->get('/', function () use ($app) {
-  return $app['twig']->render('index.twig');
+$crumba = new \crumba\Crumba;
+$data = new \crumba\Data;
+
+
+// Routes
+
+$app->get('/', function () use ($app, $crumba, $data) {
+  return $app['twig']->render('index.twig', [ 'crumba' => $crumba, 'data' => $data ]);
 });

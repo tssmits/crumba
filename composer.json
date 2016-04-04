@@ -4,6 +4,7 @@
         "vlucas/phpdotenv": "^2.2",
         "twig/twig": "^1.24",
         "monolog/monolog": "^1.18",
-        "symfony/twig-bridge": "^3.0"
+        "symfony/twig-bridge": "^3.0",
+        "parsecsv/php-parsecsv": "^0.4.5"
     }
 }
