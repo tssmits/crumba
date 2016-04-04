@@ -1,0 +1,19 @@
+{
+  "name": "crumba",
+  "description": "personal time tracker",
+  "main": "",
+  "authors": [
+    "Thijs Smits"
+  ],
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/tssmits/crumba",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
